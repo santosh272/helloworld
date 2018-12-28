@@ -1,0 +1,10 @@
+[Unit]
+Description=Starts Embarcados Qt demo application
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/tessolve-hello.sh
+
+[Install]
+WantedBy=multi-user.target
